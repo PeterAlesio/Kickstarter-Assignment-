@@ -7,7 +7,7 @@ Louise attempted to fundraise a play by the name of “Fever”, unfortunately s
 ### Analysis of Outcomes Based on Launch Date
 ---
 In order to complete this analysis, I first created an excel formula to convert the launch date and deadline columns into a readable and useable date format. From there I was able to create a “years” column to organize the Year in which each entry launched. Once all of my data was in order, I was able to create a pivot table. In the Pivot Table, I sorted it by putting the date created in the Rows tab, outcomes in both the Columns tab and the Values tab, and finally filtering with parent category and years. From there I was able to create a pivot chart with the results that the pivot table gave me which I was able to create a line graph to show the trend of successful kick-starters by what time of the year they are released. The End result of the Pivot chart was:
-![Theater_Outcomes_vs_Launch](Resources/TheaterOutcomesvsLaunch.png)
+![Theater_Outcomes_vs_Launch](https://github.com/PeterAlesio/Kickstarter-Assignment-/blob/main/Resourses/Theater%20Outcomes%20vs%20Launch.png)
 
 ---
 ### Analysis of Outcomes Based on Goals
@@ -15,7 +15,7 @@ In order to complete this analysis, I first created an excel formula to convert 
 For the Analysis of the outcomes based on Goals, I used the command 'CountIf' followed by logic to explain the conditions in which the program will count certain values. The value for successful kickstarters that were under $1000 was written by the following code
 =COUNTIFS('kickstarter data'!$D:$D, "<1000",'kickstarter data'!$F:$F, "successful",'kickstarter data'!$P:$P, "plays")
 The rest was essentially completed the same way with the percentage totals being calculated based on the counted results. The final Pivotchart looked like:
-![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](https://github.com/PeterAlesio/Kickstarter-Assignment-/blob/main/Resourses/Outcomes%20vs%20Goals.png)
 ---
 ---
 ### Challenges and Difficulties Encountered
